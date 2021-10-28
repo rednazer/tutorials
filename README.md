@@ -5,3 +5,7 @@ Languages/Frameworks that I've learned so far:
 - HTML
 - CSS
 - Javascript
+
+
+Projects done:
+- Clicker Game: https://github.com/rednazer/Web-Clicker-Game
