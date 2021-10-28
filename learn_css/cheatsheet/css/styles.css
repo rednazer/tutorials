@@ -1,0 +1,224 @@
+/* Use * for styling of everything
+*{
+  margin:0;
+  padding:0;
+}
+*/
+
+body{
+  background-color: #f4f4f4;
+  color:#555555
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px
+  font-weight:normal;
+
+  /* Same as above in 1 command
+  font: normal 16px Arial, Helvetica, sans-serif;
+  */
+
+  line-height:1.3em;
+  margin:0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color:blue;
+}
+
+a:active{
+  color:green;
+  font-size: 30px;
+}
+
+/* I dont like how this looks to be honest, but it is usable
+a:visited{
+  color:grey;
+}
+*/
+
+.container{ /* When doing container margin, use % not absolute values */
+  width:80%;
+  margin:auto;
+}
+
+.button{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border: ridge;
+}
+
+.clr{
+  clear:both;
+}
+
+.box1{
+  background-color: #444;
+  color:#fff;
+
+  border-right: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
+  border-left: 5px red solid;
+
+  /* Same as above (except grey)
+  border: 5px grey solid;
+  */
+  border-width: 10px;
+  border-bottom-width: 2px;
+  border-top-style: dashed;
+  border-right-style: dotted;
+
+  padding: 10px;
+
+  margin: 20px 0px;
+}
+
+.box1 h1{
+  font-family: Tahoma;
+  font-size: 24;
+  font-weight: 800;
+  font-style: bold;
+  text-decoration: underline;
+  text-transform: lowercase;
+  letter-spacing: -.1em;
+  word-spacing: -.3em;
+}
+
+.box2{
+  background-color: rgb(200, 50, 50);
+  color: #333333;
+  border:4px dashed #ffffff;
+  padding: 10px;
+  margin: 0px 5px;
+}
+
+.categories{
+  border:2px #ccc solid;
+  padding: 5px;
+  border-radius: 40px;
+
+}
+
+.categories h2{
+  text-align:center;
+}
+
+.categories ul{
+  padding: 5px;
+  padding-left: 25px;
+  border: 1px solid black;
+  list-style: square;
+  list-style: none;
+}
+
+.categories li{
+  padding: 3px;
+  border-bottom: 1px solid black;
+  list-style-image: url('../images/pic1.png');
+
+}
+
+.my-form{
+  padding: 10px;
+}
+
+.my-form .form-group{
+  padding: .5em;
+}
+
+.my-form label{ /* Remember block level elements are on their own line */
+  display:block;
+}
+
+/* Targets a specific type of input (excludes things like buttons) */
+.my-form input[type="text"], .my-form input[type="email"], .my-form textarea{
+  padding: 10px;
+  width: 100%
+}
+
+.block{ /* For items that you want to show side by side (and not top to botttom) */
+  float:left;
+  width: 33.3%;
+  border: 1px solid black;
+  padding: 5px;
+  box-sizing:border-box;
+}
+
+#main-block{
+  float:left;
+  width: 70%;
+  background-color: #444444;
+  color:#082c5c;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#sidebar{
+  float:right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.p-box{
+  width:800px;
+  height:500px;
+  border:1px solid black;
+  margin-top: 20px;
+  position:relative;
+  background-image: url('../images/pic2.jpg');
+  background-position: center;
+}
+
+.p-box h1{
+  color:white;
+  position:absolute;
+  top: 200px;
+  left: 50px;
+}
+
+.p-box h2{
+  color:white;
+  position:absolute;
+  bottom: 50px;
+  right: 200px;
+}
+
+.fixed{
+  position:fixed;
+  top:30%;
+  left:0%;
+}
+
+.mylist li:nth-child(even){
+  background-color: red;
+}
+
+.mylist li:nth-child(3n+1){
+  background-color: blue;
+  color: black;
+}
+
+.mylist li:nth-child(5){
+  background-color: pink;
+}
+
+.mylist li:first-child{
+  background: black;
+  color: white;
+}
+
+.mylist li:last-child{
+  background: grey;
+  color: red;
+}
+
+<!-- -->

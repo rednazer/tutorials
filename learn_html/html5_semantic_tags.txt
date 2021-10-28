@@ -1,0 +1,9 @@
+header	-	the header (top level things like logo)
+nav		-	navigation through the site
+section	-	describes the text on the page
+article	-	for articles
+aside	-	sidebar content
+footer	-	bottom of page
+
+details
+main

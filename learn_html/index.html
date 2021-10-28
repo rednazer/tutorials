@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>HTML Learn Page</title>
+  </head>
+  <body>
+
+    <a href="learn_html5.html">Go to blog page</a>
+
+    <!-- Headers -->
+    <h1 title="h1 title">Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+
+    <!-- Paragraph
+        strong - something like bold (as with everything can be changed w/css)
+        em - somehting like italic
+        a href - link between pages (or to another site the target=... opens a new page)
+    -->
+    <p>
+      Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit</strong>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <em>Ut enim ad minim veniam</em>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, <a href="https://google.com" target="_blank">consectetur adipisicing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <!-- Lists (unordered and ordered) -->
+    <ul>
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+      <li>List 4</li>
+    </ul>
+    <ol>
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+      <li>List 4</li>
+    </ol>
+
+    <!-- Table
+        thead - table header
+        tr - table row
+        th - table header
+        tbody - table body
+        td - table data
+    -->
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Zander</td>
+          <td>zander@gmail.com</td>
+          <td>21</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Line Break & horizontal rule (line) -->
+    <br>
+    <hr>
+    <br>
+
+    <!-- Forms -->
+    <form class="" action="submit.php" method="post">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="first name">
+      </div>
+      <br>
+      <div>
+        <label for="Email">Email</label>
+        <input type="email" name="email">
+      </div>
+      <br>
+      <div>
+        <label for="Message">Message</label>
+        <textarea name="messge" placeholder="Enter text in the box."></textarea>
+      </div>
+      <br>
+      <div>
+        <label for="Age">Age</label>
+        <select name="age">
+          <option value="child">Under 18</option>
+          <option value="middle">18-21</option>
+          <option value="old">Over 21</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label>Age:</label>
+        <input type="number" name="number" value="487">
+      </div>
+      <br>
+      <div class="">
+        <label>Birthday</label>
+        <input type="date" name="birthdate">
+      </div>
+      <br>
+      <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Button (use javascript and events to actually do things) -->
+    <button type="button" name="button">Click here!</button>
+
+    <br>
+    <br>
+
+    <!-- Image -->
+    <a href="Linkdein_Photo.jpg">
+      <img src="Linkdein_Photo.jpg" alt="Zander Huang linkdein photo" width="150">
+    </a>
+
+    <!-- Quotations -->
+    <blockquote cite="http://fakewebsite.com">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </blockquote>
+
+    <p><abbr title="I Like Abbreviation">ILA</abbr></p>
+
+    <p><cite>HTML crash course by</cite> Brad Traversy</p>
+
+    <div style="margin-top:500px"></div>
+
+
+  </body>
+</html>

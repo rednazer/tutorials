@@ -1,0 +1,29 @@
+The basic format of css is this:
+<selector> {<property>: <value>; <etc>}
+
+ID vs class:
+You should use id for things that are unique and class for things that will be reused
+
+When targeting a class, do: .<class name>{}
+
+margin syntax (same with padding and border):
+(There is the content, then the padding, then the border, then the margin)
+// The long way
+margin-<top, bot, left, right>: <amount>
+margin: <top> <right> <bottom> <left>
+margin: <top, bot> <right, left>
+margin: <all sides>
+
+Positioning in css:
+static  - elements in order of document flow
+relative- positioned relative to normal positioned
+absolute- target a position inside of a relative element
+fixed   - fixed position in a browser window
+initial - sets to default value
+inherit - inherits property of parent
+
+Colors in CSS:
+Can use color names HTML5 color names, hexadecimal, RGB
+color name: red;
+hexadecimal: #5f37A2;
+RGB: rgb(255, 0, 0);
